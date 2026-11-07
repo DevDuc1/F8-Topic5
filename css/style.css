@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+    font-family: inherit;
+    line-height: 1.25;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 2.1rem;
+}
+h4 {
+    font-size: 1.7rem;
+}
+h5 {
+    font-size: 1.4rem;
+}
+h6 {
+    font-size: 1.2rem;
+}
+
+input,
+button,
+textarea,
+select {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #222222;
+    background-color: black;
+}
+.container {
+    max-width: 1818px;
+    margin: 0 auto 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+header {
+    background-color: #1a1a1a;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.container header h1 {
+    text-transform: uppercase;
+    color: #f9efec;
+}
+.container .btn-work {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.container .btn {
+    background-color: transparent;
+    border: 1px solid #333333;
+    border-radius: 50%;
+    padding: 2rem;
+}
+.container .btn-card {
+    padding: 1.4rem;
+}
+.container .name-btn {
+    color: #b3b3b2;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.container .wrap-content {
+    border: 2px solid #1f1f1f;
+    border-radius: 20px;
+    padding: 20px;
+}
+.container .wrap-content .content {
+    display: flex;
+    gap: 1.6rem;
+}
+.container .wrap-content .content .card-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
+    padding: 6rem 4rem;
+    border-radius: 1.4rem;
+    gap: 1.2rem;
+    flex: 1;
+}
+.container .wrap-content .content .card-content .card-content-header {
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .wrap-content .content .card-content .card-content-header-left {
+    display: flex;
+    gap: 1.4rem;
+    color: #f9efec;
+    font-weight: 500;
+}
+
+.container .wrap-content .content .card-content .card-content-main .text-main {
+    background-color: #1f1f1f;
+    color: #e6e6e6;
+    font-size: 1.8rem;
+    padding: 1rem 1.6rem;
+    border-radius: 4.5rem;
+}
+.container
+    .wrap-content
+    .content
+    .card-content
+    .card-content-main
+    p:first-of-type {
+    margin-bottom: 1rem;
+}
+.container
+    .wrap-content
+    .content
+    .card-content
+    .card-content-main
+    .text-main
+    svg {
+    vertical-align: middle;
+}
+.container
+    .wrap-content
+    .content
+    .card-content
+    .card-content-main
+    .text-main
+    span {
+    color: #b3b3b2;
+}
+.container .wrap-content .content .card-content .card-content-bottom p {
+    color: #b3b3b2;
+    font-size: 1.8rem;
+}
+.container .wrap-content .content .img-content {
+    flex: 1;
+}
+.container .wrap-content .content .img-content img {
+    aspect-ratio: 290 / 213;
+    max-width: 580px;
+}
+.container .wrap-content .content .content-booking {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 2rem;
+}
+.container .wrap-content .content .content-booking .booking {
+    background-color: #1a1a1a;
+}
+.container .wrap-content .content .content-booking .booking-top {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 1.4rem;
+}
+.container .wrap-content .content .content-booking .booking-top .text-top p {
+    color: #ffffff;
+    font-size: 1.8rem;
+}
+.container .wrap-content .content .content-booking .booking-top .text-bottom {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container
+    .wrap-content
+    .content
+    .content-booking
+    .booking-top
+    .text-bottom
+    .wrap-text {
+    background-color: #1f1f1f;
+    border-radius: 4.5rem;
+    padding: 1rem 1.6rem;
+}
+.container
+    .wrap-content
+    .content
+    .content-booking
+    .booking-top
+    .text-bottom
+    .wrap-text
+    p {
+    color: #e6e6e6;
+    font-size: 1.6rem;
+}
+.container .wrap-content .content .content-booking .booking-mid {
+    display: flex;
+    gap: 4rem;
+    padding: 2rem 4rem;
+    border-radius: 1.4rem;
+    align-items: center;
+}
+.container .wrap-content .content .content-booking .booking-mid p {
+    color: #ffffff;
+    font-size: 1.8rem;
+}
+.container .wrap-content .content .content-booking .booking-mid img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #e7beb1;
+}
+.container .wrap-content .content .content-booking .btn-booking button {
+    padding: 18px 24px;
+    border-radius: 1.2rem;
+    background-color: #ce7d63;
+    border: none;
+    width: 100%;
+    font-size: 1.8rem;
+}
+.container .wrap-content .content .content-booking .btn-booking button:hover {
+    background-color: #ca5c38;
+    transition: all 500ms ease;
+}
