@@ -49,7 +49,9 @@ select {
     font-size: inherit;
     font-family: inherit;
 }
-
+button {
+    cursor: pointer;
+}
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
