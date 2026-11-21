@@ -53,7 +53,7 @@ button {
     cursor: pointer;
 }
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto Flex", sans-serif;
     font-weight: 400;
     font-size: 1rem;
     color: #222222;
@@ -77,6 +77,7 @@ header {
     color: #f9efec;
 }
 .container .btn-work {
+    font-family: "Roboto Mono", monospace;
     display: flex;
     gap: 1rem;
     justify-content: center;
@@ -214,6 +215,7 @@ header {
     .text-bottom
     .wrap-text
     p {
+    font-family: "Roboto Mono", monospace;
     color: #e6e6e6;
     font-size: 1.6rem;
 }
@@ -246,4 +248,14 @@ header {
 .container .wrap-content .content .content-booking .btn-booking button:hover {
     background-color: #ca5c38;
     transition: all 500ms ease;
+}
+.warp-img {
+    display: flex;
+}
+.warp-img img:not(:first-child) {
+    margin-left: -1rem;
+}
+.container .wrap-content .content .content-booking .booking-top .text-top p,
+.container .wrap-content .content .content-booking .btn-booking button {
+    text-transform: uppercase;
 }
